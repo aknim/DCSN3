@@ -1,0 +1,8 @@
+DCSN3. Its a decision tree. Each node is a question. The children are the possible choices. 
+Currently only two choices per tree. Either yes or no.
+
+Run: dcsn3.sh input.txt
+
+Interact: Type 'y' to choose yes or the left choice, 'n' for no/right choice. Any other string for quiting.
+
+Input file each line syntax: <question>, <yes-option>, <no-option>. The first line must be starting question or root.
